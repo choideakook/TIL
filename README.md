@@ -5,7 +5,7 @@
 Spring 의 이론을 정리해 놓은 패키지 입니다.
 
 <details>
-<summary> [1. Spring 입문](https://www.notion.so/Spring-boot-35c7ed13e3b3449d954cdcd9126457ba) </summary>
+<summary> **[**1. Spring 입문**](https://www.notion.so/Spring-boot-35c7ed13e3b3449d954cdcd9126457ba)** </summary>
 <div markdown="1">
 
 - [프로젝트 환경설정](https://www.notion.so/Spring-boot-35c7ed13e3b3449d954cdcd9126457ba)
@@ -17,7 +17,7 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 </details>
 
 <details>
-<summary>[2. Spring 핵심 원리](https://www.notion.so/Spring-boot-35c7ed13e3b3449d954cdcd9126457ba)</summary>
+<summary> **[**2. Spring 핵심 원리](https://www.notion.so/Spring-boot-35c7ed13e3b3449d954cdcd9126457ba)**** </summary>
 <div markdown="1">
 
 - [SOLID](https://www.notion.so/README-68066bfeced24d0f9d62990e88e9ca11)
