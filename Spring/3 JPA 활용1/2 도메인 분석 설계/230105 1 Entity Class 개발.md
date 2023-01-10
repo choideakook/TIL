@@ -2,7 +2,7 @@
 
 ### ❗️ cascade , fetch , 연관관계 편의 Method 반영이 안되어 있습니다.
 
-🔗 반영하는 방법
+[🔗 반영하는 방법](https://github.com/choideakook/TIL/blob/main/Spring/3%20JPA%20활용1/2%20도메인%20분석%20설계/230105%202%20Entity%20설계의%20주의점.md)
 
 - Member
 
