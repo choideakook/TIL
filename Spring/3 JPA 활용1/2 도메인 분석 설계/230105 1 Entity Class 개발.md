@@ -168,7 +168,7 @@ public enum DeliveryStatus {
 }
 ```
 
-- OrderItem
+- Item
 
 ```java
 package jpabook.jpashop.domain.item;
@@ -203,7 +203,7 @@ public abstract class Item {
     private List<Category> categories = new ArrayList<>();
 ```
 
-- Item
+- OrderItem
 
 ```java
 package jpabook.jpashop.domain;
