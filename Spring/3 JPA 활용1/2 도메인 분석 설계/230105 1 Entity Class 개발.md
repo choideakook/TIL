@@ -171,36 +171,36 @@ public enum DeliveryStatus {
 - OrderItem
 
 ```java
-package jpabook.jpashop.domain;
+package jpabook.jpashop.domain.item;
 
-import jpabook.jpashop.domain.item.Item;
+import jpabook.jpashop.domain.Category;
+import jpabook.jpashop.exception.NotEnoughStockException;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
+// 구현체를 만들예정이라 추상 Class 로 세팅
+// 상속관계 매핑이기 때문에 상속관계 전략을 지정해야 함 (부모 Class 에 생성)
 @Entity
+@Inheritance (strategy = InheritanceType.SINGLE_TABLE) // 상속관계 매핑 전략
+@DiscriminatorColumn (name = "dtype") //싱글테이블이라 저장할 때 구분을 하기위한 에노테이션
 @Getter @Setter
-public class OrderItem {
+public abstract class Item {
 
     @Id @GeneratedValue
-    @Column (name = "order_item_id")
+    @Column (name = "item_id")
     private Long id;
 
-    @ManyToOne
-    @JoinColumn (name = "item_id")
-    private Item item;
+    // 구현체가 바뀌어도 필요한 공통 속성
+    private String name;
+    private int price;
+    private int stockQuantity;
 
-    @ManyToOne
-    @JoinColumn (name = "order_id")
-    private Order order;
-
-    // 주문가격
-    private int orderPrice;
-
-    // 주문수량
-    private int count;
-}
+    @ManyToMany (mappedBy = "items")  // 예제를 위한 N:N 관계
+    private List<Category> categories = new ArrayList<>();
 ```
 
 - Item
