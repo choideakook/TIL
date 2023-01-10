@@ -38,6 +38,7 @@ public class Member {
 ```
 
 - Address
+	- [🔗 proctecte Class 로 만드는 법](https://github.com/choideakook/TIL/blob/main/Spring/3%20JPA%20활용1/3%20Application%20개발/230107%202%20주문%20도메인%20개발.md)
 
 ```java
 package jpabook.jpashop.domain;
@@ -54,12 +55,14 @@ public class Address {
     private String street;
     private String zipcode;
 
-		protected Address(){
-    }  // 생성자만 만들경우 JPA 스팩 때문에 에러가나서 형식적으로 기본생성자를 만들어준다.
-			 // 해당 Method 가 있을경우 해당 Class 는 함부로 new 로 생성하지 말라는 뜻
+    // 생성자만 만들경우 JPA 스팩 때문에 에러가나서 형식적으로 기본생성자를 만들어준다.
+    // 해당 Method 가 있을경우 해당 Class 는 함부로 new 로 생성하지 말라는 뜻
+    protected Address(){
+    }
+		
 
-		// 생성자에서 값을 모두 초기화해서 변경 불가능한 클래스로 만들어줘야한다.
-		public Address(String city, String street, String zipcode) {
+    // 생성자에서 값을 모두 초기화해서 변경 불가능한 클래스로 만들어줘야한다.
+    public Address(String city, String street, String zipcode) {
         this.city = city;
         this.street = street;
         this.zipcode = zipcode;
