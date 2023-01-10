@@ -1,4 +1,8 @@
-# RE
+![MasterHead](https://user-images.githubusercontent.com/115536240/211315489-75a2487b-f02a-4c81-9c11-23c18500ee44.png)
+<h1 align="center">📚 Today I learned</h1>
+<h5 align="center">오늘 배운내용을 정리하는 저장소입니다.</h5>
+<h5 align="center">혹시 틀린 내용이 있다면 언제든 PR 환영합니다.</h5>
+<br>
 
 ## 01 Spring
 
@@ -31,6 +35,17 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 > - [의존관계 자동 주입](https://github.com/choideakook/TIL/tree/main/Spring/2%20Spring%20핵심원리/7%20의존관계%20자동%20주입)
 > - [빈 생명주기 콜백](https://github.com/choideakook/TIL/tree/main/Spring/2%20Spring%20핵심원리/8%20빈%20생명주기%20콜백)
 > - [Bean Scope](https://github.com/choideakook/TIL/tree/main/Spring/2%20Spring%20핵심원리/9%20빈%20스코프)
+> 
+> </div>
+> </details>
+> <details>
+> <summary> 3. JPA 활용 1편 </summary>
+> <div markdown="1">
+> 
+> - [프로젝트 환경설정](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1/1%20프로젝트%20환경설정)
+> - [도메인 분석 설계](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1/2%20도메인%20분석%20설계)
+> - [Application 개발](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1/3%20Application%20개발)
+> - [Web 개층 개발](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1/4%20Web%20계층%20개발)
 > 
 > </div>
 > </details>
