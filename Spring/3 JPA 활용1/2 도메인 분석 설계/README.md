@@ -41,7 +41,7 @@
 <img width="600" src="https://user-images.githubusercontent.com/115536240/211179950-b66d4d26-e73d-4668-aa52-fd17fc5dd415.png">
 
 - 회원 (Member)
-    - 이름와 [임베디드 타입](https://velog.io/@conatuseus/JPA-임베디드-타입embedded-type-8ak3ygq8wo)인 주소 (Address), 그리고 주문 (Orders) 리스트를 가진다.
+    - 이름과 [🔗 임베디드 타입](https://velog.io/@conatuseus/JPA-임베디드-타입embedded-type-8ak3ygq8wo)인 주소 (Address), 그리고 주문 (Orders) 리스트를 가진다.
 - 주문 (Order)
     - 한 번 주문시 여러 상품을 주문할 수 있으므로 주문과 주문상품 (ORderItem) 은 일대다 관계이다.
     - 주문은 상품을 주문한 회원과 배송 정보, 주문 날짜, 주문 상태 (status) 를 가지고 있다.
@@ -98,7 +98,7 @@
     - OrderItem 을 ORDER_ITEM.ITEM_ID 외래 키와 매핑
 - 주문과 배송
     - 일대일 단방향 관계
-    - [Order.delivery](http://Order.delivery) 를 ORDERS.DELIBERY_ID 외래 키와 매핑한다.
+    - Order.delivery 를 ORDERS.DELIBERY_ID 외래 키와 매핑한다.
 - 카테고리와 상품
     - @ManyToMany 를 사용해서 매핑
         - 실무에서는 다대다 관계를 사용하지 않으므로 예제를 보여주기위한 관계이다.
