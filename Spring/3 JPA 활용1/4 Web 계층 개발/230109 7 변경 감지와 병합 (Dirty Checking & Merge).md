@@ -22,12 +22,12 @@
 - 예시
 
 ```java
-		public void cancel () {
+    public void cancel () {
         if (delivery.getStatus() == DeliveryStatus.COMP) {
             throw new IllegalStateException("item that have already been delivered cannot be canceled");
         }
-				// 데이터가 변경되었는데 별도로 Entity 에 업데이트를 하지 않음
-				// JPA 가 자동으로 변경을 감지해 DB 에 업데이트 한다.
+	// 데이터가 변경되었는데 별도로 Entity 에 업데이트를 하지 않음
+	// JPA 가 자동으로 변경을 감지해 DB 에 업데이트 한다.
         this.setStatus(OrderStatus.CANCEL);
         for (OrderItem orderItem : orderItems) {
             orderItem.cancel();
@@ -44,7 +44,7 @@ JPA 가 더이상 관리하지 않는 Entity 기 때문에 data 를 변경하더
 - 그렇기 때문에 별도로 merge method 를 호출해 DB 에 update 해줘야 한다.
 
 ```java
-@PostMapping("items/{itemId}/edit")
+    @PostMapping("items/{itemId}/edit")
     public String updateItem(@ModelAttribute("form") BookForm form) {
         Book book = new Book();
         book.setId(form.getId());
@@ -64,7 +64,7 @@ JPA 가 더이상 관리하지 않는 Entity 기 때문에 data 를 변경하더
 - ItemService.saveItem → ItemRepository.save
 
 ```java
-		public void save(Item item) {
+    public void save(Item item) {
         if (item.getId() == null) {
             em.persist(item);
         } else {
@@ -88,7 +88,7 @@ JPA 가 더이상 관리하지 않는 Entity 기 때문에 data 를 변경하더
 ❗️ 사실 setter 도 사용하면 좋지 않기 때문에 해당 entity 에서 set 해주고 protected 로 막아놓는 방법이 가장 좋다.
 
 ```java
-		@Transactional
+    @Transactional
     public void updateItem(Long itemId, String name, int price , int stockQuantity) {
         Item findId = itemRepository.findOne(itemId);
         findId.setName(name);
@@ -101,11 +101,10 @@ JPA 가 더이상 관리하지 않는 Entity 기 때문에 data 를 변경하더
     - find 를 위한 id 값이 필요하기 때문에 Parameter 값에 @PathVariable Long itemId 를 추가해준다.
 
 ```java
-		@PostMapping("items/{itemId}/edit")
+    @PostMapping("items/{itemId}/edit")
     public String updateItem(@PathVariable Long itemId, @ModelAttribute("form") BookForm form) {
 
         itemService.updateItem(itemId, form.getName(), form.getPrice(), form.getStockQuantity());
-
         return "redirect:/items";
     }
 ```
