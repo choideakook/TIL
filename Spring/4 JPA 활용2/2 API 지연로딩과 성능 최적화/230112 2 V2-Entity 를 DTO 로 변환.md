@@ -76,7 +76,7 @@ LAZY 로딩으로 인해 DB 쿼리가 너무 많이 호출되어버림
     - Order, Member, Delivery
 
 ```java
-public SimpleOrderDto(Order order) {
+    public SimpleOrderDto(Order order) {
             orderId = order.getId();
             name = order.getMember().getName(); // LAZY 초기화
             orderDate = order.getOrderDate();
@@ -98,7 +98,7 @@ public SimpleOrderDto(Order order) {
 총 5번 DB 에 쿼리문을 보냈다.
 
 ```java
-// order 의 DB 2개 전부 조회
+    // order 의 DB 2개 전부 조회
     select
         order0_.order_id as order_id1_6_,
         order0_.delivery_id as delivery4_6_,
