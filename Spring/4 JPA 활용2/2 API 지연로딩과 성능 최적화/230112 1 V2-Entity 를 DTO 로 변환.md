@@ -5,7 +5,7 @@
 Entity 를 조회한 후 별도의 DTO 를 생성해 필요한 값만 골라서 출력하는 방식
 
 ```java
-		@GetMapping("/api/v2/simple-orders")
+    @GetMapping("/api/v2/simple-orders")
     public List<SimpleOrderDto> ordersV2 () {
         return orderRepository.findAllByCriteria(new OrderSearch()).stream()
                 // DB 에서 찾아온 orders 를 DTO 에 주입해 stream 을 돌림
@@ -99,7 +99,7 @@ public SimpleOrderDto(Order order) {
 
 ```java
 // order 의 DB 2개 전부 조회
-select
+    select
         order0_.order_id as order_id1_6_,
         order0_.delivery_id as delivery4_6_,
         order0_.member_id as member_i5_6_,
