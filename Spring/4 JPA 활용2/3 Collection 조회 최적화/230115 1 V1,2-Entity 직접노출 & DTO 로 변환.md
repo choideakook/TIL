@@ -90,7 +90,7 @@ public class OrderApiController {
     static class OrderDto {
         private Long orderId;
         private String name;
-        private LocalDateTime orderDate; //주문시간 private OrderStatus orderStatus;
+        private LocalDateTime orderDate;
         private Address address;
         private OrderStatus orderStatus;
         private List<OrderItemDto> orderItems;
