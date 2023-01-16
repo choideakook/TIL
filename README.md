@@ -12,6 +12,14 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 > 
 > 
 > <details>
+> <summary> 0. Spring TIL</summary>
+> <div markdown="1">
+> 
+> - [Spring 의 기능과 개념 관련 공부한 내용을 기록하는 ](https://github.com/choideakook/TIL/tree/main/Spring/0%20Spring%20TIL)
+> 
+> </div>
+> </details>
+> <details>
 > <summary> 1. Spring 입문 </summary>
 > <div markdown="1">
 > 
@@ -46,6 +54,16 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 > - [도메인 분석 설계](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1/2%20도메인%20분석%20설계)
 > - [Application 개발](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1/3%20Application%20개발)
 > - [Web 개층 개발](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1/4%20Web%20계층%20개발)
+> 
+> </div>
+> </details>
+> <details>
+> <summary> 4. JPA 활용 2 </summary>
+> <div markdown="1">
+> 
+> - [API 개발 기본](https://github.com/choideakook/TIL/tree/main/Spring/4%20JPA%20활용2/1%20API%20개발%20기본)
+> - [API 지연 로딩과 성능 최적화](https://github.com/choideakook/TIL/tree/main/Spring/4%20JPA%20활용2/2%20API%20지연로딩과%20성능%20최적화)
+> - [Collection 조회 최적화](https://github.com/choideakook/TIL/tree/main/Spring/4%20JPA%20활용2/3%20Collection%20조회%20최적화)
 > 
 > </div>
 > </details>
