@@ -8,7 +8,7 @@ Open EntityManager In View : JPA
 
 ## ✏️ OSIV ON
 
-![스크린샷 2023-01-16 오전 9.57.34.png](OSIV%20%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA%20049c770533be4bfb8e607fc8afc79002/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-01-16_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_9.57.34.png)
+<img width="500" alt="s02" src="https://user-images.githubusercontent.com/115536240/212784321-46bd8478-cd3a-442e-b048-22a8c5ed78d9.png">
 
 - Spring application 을 실행하면 WARN 경고문이 출력된다.
 
@@ -34,7 +34,8 @@ spring.jpa.open-in-view is enabled by default. Therefore, database queries may b
 
 ## ✏️ OSIV OFF
 
-![스크린샷 2023-01-16 오전 10.24.21.png](OSIV%20%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA%20049c770533be4bfb8e607fc8afc79002/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-01-16_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_10.24.21.png)
+ <img width="500" alt="s02" src="https://user-images.githubusercontent.com/115536240/212784313-1a9e72a0-816c-4528-ac55-dc210edaf5f2.png">
+
 
 - OSIV 를 Off 하면 Transcation 범위 내에서만 영속성 Context  가 생존하게 된다.
     - Transcation 을 종료할 때 영속성 Context 를 닫고, DB 커넥션도 반환해 커넥션 리소스를 낭비하지 않는다.
