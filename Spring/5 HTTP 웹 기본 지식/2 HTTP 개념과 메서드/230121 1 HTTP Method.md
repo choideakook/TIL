@@ -19,7 +19,7 @@
 
 - 회원 목록 조회 /members
 - 특정 회원 조회 /members/{id}
-- 회원 등록 /members/{id}
+- 회원 등록 /members
 - 회원 수정 /members/{id}
 - 회원 삭제 /members/{id}
 
