@@ -1,6 +1,7 @@
 # post man 정리
 
 [🔗 참고 블로그](https://velog.io/@jeongssi94/Postman-API)
+[🔗 HTTP method](https://github.com/choideakook/TIL/blob/main/Spring/5%20HTTP%20웹%20기본%20지식/2%20HTTP%20개념과%20메서드/230126%201%20HTTP%20Method.md)
 
 ## ✏️ 기능
 
