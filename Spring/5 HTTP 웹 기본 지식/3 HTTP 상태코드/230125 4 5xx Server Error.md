@@ -1,6 +1,6 @@
 # 5xx Server Error
 
-🔗 HTTP 상태 코드
+[🔗 HTTP 상태 코드](https://github.com/choideakook/TIL/blob/main/Spring/5%20HTTP%20웹%20기본%20지식/3%20HTTP%20상태코드/230125%201%20HTTP%20상태%20코드.md)
 
 ## ✏️서버오류
 
