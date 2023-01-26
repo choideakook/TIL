@@ -23,10 +23,8 @@
     1. 회원 가입, 상품 주문, 데이터 변경
 4. HTTP API 를 통한 데이터 전송
     1. 회원 가입, 상품 주문, 데이터 변경
-    2. 서버 to 서버, 앱 클라이언트, 웹 클라이언트 (Ajax)
-    
-    🔗 HTTP API 설계 예시
-    
+    2. 서버 to 서버, 앱 클라이언트, 웹 클라이언트 (Ajax)  
+[🔗 HTTP API 설계 예시](https://github.com/choideakook/TIL/blob/main/Spring/5%20HTTP%20웹%20기본%20지식/2%20HTTP%20개념과%20메서드/230126%203HTTP%20API%20설계%20예시.md)    
 
 <br>
 
@@ -73,7 +71,7 @@ Host: www.google.com
 
 ## ✏️ HTML Form 데이터 전송 - POST
 
-![s5241.png](HTTP%20method%20%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%205fcee9fc70e949c69004a03777893d7f/s5241.png)
+<img width="600" alt="s5241" src="https://user-images.githubusercontent.com/115536240/214733902-1ec1feeb-5616-4950-9b2e-96f8cb4ddb2c.png">
 
 - 웹 브라우저가 생성한 요청 HTTP 메시지
     - Content-Type - 서버에 요청할 메시지 바디의 컨텐츠 형식
@@ -87,13 +85,13 @@ Host: www.google.com
 
 - GET 은 body 가 없기 때문에 url 에 쿼리 파라미터 형식으로 data 를 전달하게 된다.
 
-![s5242.png](HTTP%20method%20%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%205fcee9fc70e949c69004a03777893d7f/s5242.png)
+<img width="600" alt="s5242" src="https://user-images.githubusercontent.com/115536240/214733911-f8f65b0f-24e5-4aa9-be57-e5f1dd901af8.png">
 
 ❗️ 억지로 사용할 수는 있지만 data 저장할 때 GET 을 사용하면 안된다.
 
 - 올바른 query parameter 형식의 get 사용법
 
-![s5242.png](HTTP%20method%20%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%205fcee9fc70e949c69004a03777893d7f/s5242%201.png)
+    <img width="600" alt="s5242 1" src="https://user-images.githubusercontent.com/115536240/214733910-c04ea49c-d5f7-4533-9752-efdc1ffb0d7e.png">
 
 <br>
 
@@ -104,7 +102,7 @@ Host: www.google.com
 - contente-type 은 multipart/form-data 이다.
 - boundary=——XXX 는 클라이언트가 요청한 data 들을 구분선으로 구별해 서버가 알아보기 쉽게 만들어준다.
 
-![s5244.png](HTTP%20method%20%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%205fcee9fc70e949c69004a03777893d7f/s5244.png)
+<img width="600" alt="s5244" src="https://user-images.githubusercontent.com/115536240/214733915-7937830c-9096-42f1-9e32-38ce0b45709d.png">
 
 <br>
 
@@ -140,4 +138,4 @@ Host: www.google.com
     - JSON 외에도 TEXT, XML, 등등.. 이 있다.
     - 사실상 JSON 이 표준값이다.
 
-🔗 HTTP API 설계 예시
+[🔗 HTTP API 설계 예시](https://github.com/choideakook/TIL/blob/main/Spring/5%20HTTP%20웹%20기본%20지식/2%20HTTP%20개념과%20메서드/230126%203HTTP%20API%20설계%20예시.md)  
