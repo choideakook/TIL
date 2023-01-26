@@ -1,6 +1,6 @@
 # post man 정리
 
-[🔗 참고 블로그](https://velog.io/@jeongssi94/Postman-API)
+[🔗 참고 블로그](https://velog.io/@jeongssi94/Postman-API)  
 [🔗 HTTP method](https://github.com/choideakook/TIL/blob/main/Spring/5%20HTTP%20웹%20기본%20지식/2%20HTTP%20개념과%20메서드/230126%201%20HTTP%20Method.md)
 
 ## ✏️ 기능
@@ -87,7 +87,8 @@
 
 <br>
 
-## ✏️ Status Code
+## ✏️ Status Code
+[🔗 더 많은 상태 코드](https://github.com/choideakook/TIL/blob/main/Spring/5%20HTTP%20웹%20기본%20지식/3%20HTTP%20상태코드/230125%201%20HTTP%20상태%20코드.md)
 
 ### 📍 200 - OK
 
