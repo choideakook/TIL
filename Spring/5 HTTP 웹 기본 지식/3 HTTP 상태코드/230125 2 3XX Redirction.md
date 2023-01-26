@@ -1,6 +1,6 @@
 # 3XX Redirction
 
-🔗 HTTP 상태 코드
+[🔗 HTTP 상태 코드](https://github.com/choideakook/TIL/blob/main/Spring/5%20HTTP%20웹%20기본%20지식/3%20HTTP%20상태코드/230125%201%20HTTP%20상태%20코드.md)
 
 ## ✏️ redircetoin
 
@@ -8,7 +8,7 @@
 
 - url 이 변경되었지만 사용자가 변경전 url 에 접속하는 경우
 
-![s5251.png](3XX%20Redirction%2020701c9acc4d49549a52be39cf8ca483/s5251.png)
+<img width="545" alt="s5251" src="https://user-images.githubusercontent.com/115536240/214740383-3a25a4a2-8d76-4395-9703-3acade6d2529.png">
 
 ### 1. 영구 리다이렉션
 
