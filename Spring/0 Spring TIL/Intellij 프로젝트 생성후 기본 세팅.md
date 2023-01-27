@@ -78,3 +78,6 @@ chmod 755 h2.sh
 ```
 ./h2.sh
 ```
+```
+localhost
+```
