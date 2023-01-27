@@ -13,6 +13,15 @@ Preference → plugin → lombok 최신버전인지 확인
 <img width="500" alt="2" src="https://user-images.githubusercontent.com/115536240/211440310-90dd8f58-4629-4ac5-b3ed-3ffaa43f7bfc.png">
 
 enable annotation processing 에 체크
+  - 롬복 같은 외부 라이브러리가 컴파일 시 문제없이 작동하도록 해주는 설정
+
+build.gradel 의 dependencies 추가
+  - 테스트에서 롬복을 사용할 수 있게된다.
+```
+//테스트에서 lombok 사용
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+```
 
 ## ✏️ git 자동 staging
 
@@ -24,8 +33,4 @@ confirmation → when files are created → Add silently ( 자동으로 add 하�
 
 - 앞으로 생성되는 file 들은 자동으로 add 됨
 
-<img width="500" alt="4" src="https://user-images.githubusercontent.com/115536240/211440315-9a18ebed-6848-494e-9086-0a931dc560a4.png">
-
-기존에 만들어진 file staging 하기
-
-<img width="500" alt="5" src="https://user-images.githubusercontent.com/115536240/211440317-a047b0a6-a472-489c-addf-d9c6a572a262.png">
+터미널에서 git repository 에 push 해주면 기존 파일들이 repository 에 업로드되고 앞으로의 파일들도 자동 업로드 된다.
