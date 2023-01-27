@@ -34,3 +34,11 @@ confirmation → when files are created → Add silently ( 자동으로 add 하�
 - 앞으로 생성되는 file 들은 자동으로 add 됨
 
 터미널에서 git repository 에 push 해주면 기존 파일들이 repository 에 업로드되고 앞으로의 파일들도 자동 업로드 된다.
+  
+## ✏️ application 실행해보기
+SpringBootApplication 을 실행 후  
+```
+Started JdbcApplication 메시지가 나오면 성공  
+```  
+  
+<img width="600" alt="s000" src="https://user-images.githubusercontent.com/115536240/214991902-844da971-78be-4366-b601-8c3acff8066f.png">  
