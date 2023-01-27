@@ -19,8 +19,8 @@ build.gradel 의 dependencies 추가
   - 테스트에서 롬복을 사용할 수 있게된다.
 ```
 //테스트에서 lombok 사용
-	testCompileOnly 'org.projectlombok:lombok'
-	testAnnotationProcessor 'org.projectlombok:lombok'
+    testCompileOnly 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
 ```
 
 ## ✏️ git 자동 staging
