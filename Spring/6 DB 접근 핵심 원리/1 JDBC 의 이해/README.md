@@ -1,5 +1,3 @@
-# README
-
 # 프로젝트 생성과 기본 세팅
 
 ## ✏️ dependencies
