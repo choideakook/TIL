@@ -24,7 +24,7 @@ A 의 계좌에서 잔고를 줄인 뒤 B 계좌에서 error 가 발생할 경�
 
 Transaction 은 원자성 (Atomicity), 일관성 (Consistency), 격리성 (Isolation), 지속성 (Durability) 을 보장해야 한다.
 
-### 📍원자성 Atomicity 🔗
+### 📍원자성 Atomicity [🔗](https://github.com/choideakook/TIL/blob/main/Spring/6%20DB%20접근%20핵심%20원리/3%20Transaction/230128%205%20DB%20락%20개념의%20이해.md)
 
 Transaction 내에서 실행한 작업은 마치 하나의 작업인 것처럼 모두 성공하거나 모두 실패하여야 한다.
 
@@ -34,7 +34,7 @@ Transaction 내에서 실행한 작업은 마치 하나의 작업인 것처럼 �
 
 - DB 에서 정한 무결성 제약 조건을 항상 만족해야 한다.
 
-### 📍격리성 Isolation 🔗
+### 📍격리성 Isolation
 
 동시에 실행되는 Transaction 들이 서로에게 영향을 미치지 않도록 격리해야 한다.
 
