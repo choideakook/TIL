@@ -86,7 +86,7 @@ public class MemberServiceV3_2 {
 
 - 작동이 정상적으로 실행된다.
 
-🔗 Test code 보기
+[🔗 Test code 보기](https://github.com/choideakook/TIL/blob/main/Spring/6%20DB%20접근%20핵심%20원리/4%20Transaction%20활용/230130%203%20Transaction%20Manager%20적용.md)
 
 <br>
 
