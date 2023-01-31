@@ -11,7 +11,7 @@ Java 는 Error 와 Exception Class 로 관리하고 둘을 구분한다.
     - 개발자의 실수나 사용자의 영향에 의해 발생한 문제
     - 개발자가 미리 예측해 방지할 수 있다.
 
-![스크린샷 2023-01-30 오후 10.31.35.png](Exception%2090452500cf9544dfbca99e3874947a31/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-01-30_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.31.35.png)
+<img width="585" alt="jexc1" src="https://user-images.githubusercontent.com/115536240/215631431-7e06c2be-ed30-4bd0-b10a-6e810bf8b645.png">
 
 Error 와 Exception 는 Throwable 을 상속하고 Throwable 은 최상의 Class 인 Object 를 상속하는 구조이다.
 
@@ -151,7 +151,7 @@ Resource 와 연결해 data 를 주고받을 때 수 많은 예외가 발생하�
 
 - 이 때 발생하는 예외가 IOException 이다.
 
-![IMG_F18F9C363786-1.jpeg](Exception%2090452500cf9544dfbca99e3874947a31/IMG_F18F9C363786-1.jpeg)
+<img width="585" alt="jexc1" src="https://user-images.githubusercontent.com/115536240/215631692-b94440b1-7c29-47e2-9c8d-8ccc89b7e7ab.png">
 
 Java 와 Resource 는 data 를 주고 받기 위해 연결과 연결 해제를 해야하는데,
 예외를 처리하기 위해 Try , Catch 를 사용한다.
