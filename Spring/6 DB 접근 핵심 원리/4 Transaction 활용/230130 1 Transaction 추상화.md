@@ -22,7 +22,7 @@ Service 계층은 특정 기술에 의존하는 것이 아닌 Transaction 인터
 
 Spring 에서는 이미 Transaction 을 추상화하는 인터페이스인 `PlatformTransactionManager` 를 제공하고 있다.
 
-![s6411.png](Transaction%20%E1%84%8E%E1%85%AE%E1%84%89%E1%85%A1%E1%86%BC%E1%84%92%E1%85%AA%2023a3bc12ccbe4dd4b519a5a96c4c3092/s6411.png)
+<img width="522" alt="s6411" src="https://user-images.githubusercontent.com/115536240/215629802-56ab7690-89b9-47d7-b114-440182f8a071.png">
 
 `PlatformTransactionManager` 는 이미 다양한 기술의 Transaction 구현체를 제공하기 때문에 Service 계층은 `PlatformTransactionManager` 만 의존시키면 해결된다.
 
