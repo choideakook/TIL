@@ -3,7 +3,7 @@
 Spring 이 제공하는 Transaction Manager 는 크게 2가지 역할을 한다.
 
 1. Transaction 추상화
-    - 🔗 Transaction 추상화
+    - [🔗 Transaction 추상화](https://github.com/choideakook/TIL/blob/main/Spring/6%20DB%20접근%20핵심%20원리/4%20Transaction%20활용/230130%201%20Transaction%20추상화.md)
 2. 리소스 동기화
     - Transaction 을 유지하려면 처음부터 끝날 때 까지 같은 Connection 을 유지해야 한다.
     - Connection 을 유지하기위한 작업을 동기화라고 하며 Param 으로 전달하는 동기화는 코드가 너무 지저분해지는걸 포함해 다양한 문제점을 갖고 있다.
@@ -13,9 +13,9 @@ Spring 이 제공하는 Transaction Manager 는 크게 2가지 역할을 한다.
 
 ## ✏️ Transaction Manager 와 Transaction 동기화 Manager
 
-🔗 예제로 확인하는 Transaction Manager 가 사용되는 과정
+[🔗 예제로 확인하는 Transaction Manager 가 사용되는 과정](https://github.com/choideakook/TIL/blob/main/Spring/6%20DB%20접근%20핵심%20원리/4%20Transaction%20활용/230130%203%20Transaction%20Manager%20적용.md)
 
-![s6431.png](Transaction%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%80%E1%85%B5%E1%84%92%E1%85%AA%2034f2a2c1df6a4470a696227b849daa51/s6431.png)
+<img width="530" alt="s6431" src="https://user-images.githubusercontent.com/115536240/215630007-a8041040-0b15-4775-9d8e-6af69f9d506d.png">
 
 1. Transaction 이 시작되면 interface 인 Transaction Manager 를 호출
 2. Transaction Manager 는 Data Source 를 통해 Connection 을 생성한다.
