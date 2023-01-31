@@ -2,7 +2,7 @@
 
 ## ✏️ Transaction AOP 의 전체 흐름
 
-![s64e1.png](Transaction%20AOP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%208a22b32448ed439eb70fbbd55a150a6d/s64e1.png)
+<img width="534" alt="s64e1" src="https://user-images.githubusercontent.com/115536240/215631259-1499b9ad-a7ee-491b-bf41-91b4e0eb5c7a.png">
 
 1. 클라이언트의 프록시 호출
 2. 프록시 Method 의 Transaction 이 시작하고 Transaction Manager 를 획득한다.
