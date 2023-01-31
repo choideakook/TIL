@@ -142,7 +142,7 @@ public class MemberServiceV3_1 {
 
 ## ✏️ Test
 
-🔗 Transaction Mananer 로 동기화
+[🔗 Transaction Mananer 로 동기화](https://github.com/choideakook/TIL/blob/main/Spring/6%20DB%20접근%20핵심%20원리/4%20Transaction%20활용/230130%202%20Transaction%20동기화.md)
 
 링크의 그림처럼 DI 를 주입해주면 정상적으로 실행된다.
 
