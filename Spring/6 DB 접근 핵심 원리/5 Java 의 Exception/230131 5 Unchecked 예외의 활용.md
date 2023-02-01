@@ -2,7 +2,8 @@
 
 checked 예외의 문제점을 Runtime 예외를 사용해 보완할 수 있다.
 
-![s6551.png](Unchecked%20%E1%84%8B%E1%85%A8%E1%84%8B%E1%85%AC%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%20578f180b84c14ed6ae81e5942a3cf77b/s6551.png)
+<img width="536" alt="s6551" src="https://user-images.githubusercontent.com/115536240/215918368-47cd62a6-dfbb-452f-b6a2-8dcf7d374974.png">
+
 
 - `SQLException` 과 `ConnectException` 을 RuntimeException 으로 변경해 주었다.
     - 별도로 throw 를 선언하지 않아도 해결하지 않은 예외를 자동으로 던지게 된다.
@@ -13,7 +14,7 @@ checked 예외의 문제점을 Runtime 예외를 사용해 보완할 수 있다.
 
 - 해당 객체가 처리할 수 없는 예외를 의존하지 않게 되었다.
 - RuntimeSQLException 에서 생성자는 단순 message 만 출력하는것이 아닌 이전 예외의 massage 까지 출력해줄 수 있는 Cause Throwable 로 생성자를 만들었다.
-- 🔗 예외 포함 스택 트레이스
+- [🔗 예외 포함 스택 트레이스](https://github.com/choideakook/TIL/blob/main/Spring/6%20DB%20접근%20핵심%20원리/5%20Java%20의%20Exception/230131%206%20예외%20포함과%20스택%20트레이스.md)
 
 ```java
 package hello.jdbc.excepiton;
