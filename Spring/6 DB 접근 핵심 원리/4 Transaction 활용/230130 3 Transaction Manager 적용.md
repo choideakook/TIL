@@ -4,7 +4,7 @@
 
 - `DataSourceUtils` Class 를 사용해 Connection close 수정
     - Connection 을 그대로 Close 하면 동기화가 끊기게 된다.
-    - `DataSourceUtils.*releaseConnection()` 는* Transaction 동기화 Mananer 에서 사용한 Con 은 살려두고,
+    - `DataSourceUtils.releaseConnection()` 는 Transaction 동기화 Mananer 에서 사용한 Con 은 살려두고,
     Transaction 과 상관없는 Con 만 Close 시킨다.
 - `DataSourceUtils` Class 를 사용해 Connection 획득
     - Transaction 동기화 Manager 에 보관된 Con 을 가져오게 된다.
