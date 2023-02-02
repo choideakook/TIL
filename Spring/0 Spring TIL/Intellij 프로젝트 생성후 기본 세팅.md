@@ -81,3 +81,14 @@ chmod 755 h2.sh
 ```
 localhost
 ```
+  
+JDBC URL 접속
+```
+jdbc:h2:tcp://localhost/~/DB 이름
+```
+  
+새로운 DB 를 만드려면
+```
+jdbc:h2:~/DB 이름
+```
+~ 에 새로운 mv.db 가 생성된걸 확인할 수 있다.
