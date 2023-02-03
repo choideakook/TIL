@@ -43,7 +43,7 @@ Started JdbcApplication 메시지가 나오면 성공
   
 <img width="600" alt="s000" src="https://user-images.githubusercontent.com/115536240/214991902-844da971-78be-4366-b601-8c3acff8066f.png">  
   
-## ✏️ H2 DB 연결하기
+## ✏️ H2 DB 와 JPA 환경설정
 application.yml 에 환경설정 하기  
 
 [🔗 환경설정의 자세한 내용](https://github.com/choideakook/TIL/blob/main/Spring/3%20JPA%20활용1/1%20프로젝트%20환경설정/230104%201%20프로젝트%20환경설정.md)
