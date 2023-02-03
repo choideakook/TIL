@@ -57,8 +57,8 @@ dependencies {
     - insert, update, delete
     - update 의 반환값은 int 인데 update 로 인해 영향을 받은 row 숫자를 뜻한다.
     - insert PK 로직
-        - 🔗 개발자가 직접 PK 설정 - KeyHolder
-        - 🔗 자동으로 PK 설정 - SimpleJdbcInsert
+        - [🔗 개발자가 직접 PK 설정 - KeyHolder](https://github.com/choideakook/TIL/blob/main/Spring/7%20DB%20접근%20활용/1%20JDBC%20Template/230202%202JDBC%20Template%20적용.md)
+        - [🔗 자동으로 PK 설정 - SimpleJdbcInsert](https://github.com/choideakook/TIL/blob/main/Spring/7%20DB%20접근%20활용/1%20JDBC%20Template/230202%204%20Simple%20JDBC%20Insert.md)
 - template.query
     - List 를 조회
     - DB 의 2개 이상의 data 를 조회할경우 사용한다.
