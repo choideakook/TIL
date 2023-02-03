@@ -69,4 +69,6 @@ public class AutoAppConfig {
 - Controller : 스프링 MVC 컨트롤러로 인식
 - Service : 스프링 자체에 특별한 기능은 없고, 해당 Class 에 핵심 로직이 있다는 표시
 - Repository : 스프링 데이터 접근 계층으로 인식, 데이터 계층의 예외를 스프링 예외로 변환
+        - JPA 의 예외를 Spring 예외로 변환 시켜줌
+        - 🔗 JPA 예외 변환230203
 - Configuration : 스프링 설정정보로 인식, 스프링 빈이 싱글톤을 유지하도록 처리
