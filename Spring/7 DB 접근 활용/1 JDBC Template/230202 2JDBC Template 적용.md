@@ -2,7 +2,7 @@
 
 ## ✏️ Repository
 
-🔗 JDBC Template CRUD
+[🔗 JDBC Template CRUD](https://github.com/choideakook/TIL/blob/main/Spring/7%20DB%20접근%20활용/1%20JDBC%20Template/README.md)
 
 - find all 의 동적 쿼리 부분의 코드가 매우 복잡하고 지저분한 문제가 있다.
 
