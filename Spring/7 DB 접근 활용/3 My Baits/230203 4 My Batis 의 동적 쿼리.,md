@@ -1,0 +1,96 @@
+# My Batis 의 동적 쿼리
+
+My Batis 를 사용하는 가장 큰 이유는 동적 쿼리를  편리하게 구현할 수 있다는 것이다.
+
+## ✏️ 공식 문서의 예제를 참고한 동적 SQL
+
+- if
+- choose ( when, otherwise)
+- trim (where, set)
+- foreach
+
+<br>
+
+### 📍 If
+
+- 해당 조건에 따라 값을 추가할지 말지 판단한다.
+- 내부의 문법은 OGNL 을 사용한다.
+
+```xml
+<select id="findActiveBlogWithTitleLike"
+       resultType="Blog">
+    SELECT * FROM BLOG
+    WHERE state = ‘ACTIVE’
+    <if test="title != null">
+      AND title like #{title}
+    </if>
+</select>
+```
+
+<br>
+
+### 📍 choose ( when, otherwise)
+
+- java 의 switch 문과 비슷하다.
+    - when 을 만족하면 해당 when 절이 실행된다.
+    - 만족하는 when 절이 없는경우 otherwise 절이 실행된다.
+
+```xml
+<select id="findActiveBlogLike"
+       resultType="Blog">
+    SELECT * FROM BLOG WHERE state = ‘ACTIVE’
+    <choose>
+      <when test="title != null">
+        AND title like #{title}
+      </when>
+      <when test="author != null and author.name != null">
+        AND author_name like #{author.name}
+      </when>
+      <otherwise>
+        AND featured = 1
+      </otherwise>
+    </choose>
+</select>
+```
+
+### 📍 trim (where, set)
+
+- where 는 안의 문장이 없을경우 출력되지 않는다.
+- 만약 and 가 있는 if 문이 처음으로 시작될 경우 and 를 지우고 where 로 바꿔준다.
+
+```xml
+<select id="findActiveBlogLike"
+       resultType="Blog">
+    SELECT * FROM BLOG
+    <where>
+      <if test="state != null">
+           state = #{state}
+      </if>
+      <if test="title != null">
+          AND title like #{title}
+      </if>
+      <if test="author != null and author.name != null">
+          AND author_name like #{author.name}
+      </if>
+    </where>
+</select>
+```
+
+### 📍 foreach
+
+- Collection 을 반복 처리할 때 사용됨
+    - parameter 를 list 로 전달 할 수 있다.
+
+```xml
+<select id="selectPostIn" resultType="domain.blog.Post">
+    SELECT *
+    FROM POST P
+    <where>
+      <foreach item="item" index="index" collection="list"
+          open="ID in (" separator="," close=")" nullable="true">
+            #{item}
+      </foreach>
+    </where>
+</select>
+
+```
