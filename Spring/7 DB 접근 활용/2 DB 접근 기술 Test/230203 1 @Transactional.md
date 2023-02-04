@@ -49,7 +49,7 @@ class ItemRepositoryTest {
 하지만 Test 에서 @Transactional 을 사용할 경우
 Transaction 안에서 Test 를 실행하고 종료되면 무조건 rollback 으로 동작된다.
 
-![s7211.png](@Transactional%2045b2565cca4940fba10503058653ecc2/s7211.png)
+<img width="529" alt="s7211" src="https://user-images.githubusercontent.com/115536240/216753730-93174157-f85f-4804-a0a5-65c961706cf5.png">
 
 @Transactional 의 원리는 동일하지만 Test 에서는 마지막에 Rollback 하는 부분이 차이점이다.
 
