@@ -39,6 +39,7 @@
 
 ## ✏️ 개발 순서
 
-- Service , Repository 계층 개발
+- Service , Repository 계층 개발  
+    - [🔗 Repository 개념](https://github.com/choideakook/TIL/blob/main/Spring/7%20DB%20접근%20활용/4%20JPA/230203%201%20JPA%20개발.md)  
 - Test Cast 로 검증
 - Web 계층 개발 , 적용
