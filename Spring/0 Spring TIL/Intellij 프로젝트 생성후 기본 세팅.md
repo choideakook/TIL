@@ -1,5 +1,24 @@
 # Intellij 프로젝트 생성후 세팅
 
+## ✏️ Project 생성
+[🔗 Project 생성 링크](https://start.spring.io)  
+  
+### 📍 Dependencies
+- Gradle Groovy
+- Spring Boot 2.7.7
+- Java 11
+- Dependencies
+    - Spring web
+    - Validation
+    - Thymeleaf
+    - jpa
+    - H2 Database
+    - Lombok
+    - Spring boot devtools
+- Group : 기관 명
+- Artifact : project 명 (build 결과물)
+
+
 ## ✏️ Gradle 변경
 
 Intellij 로 변경
@@ -67,6 +86,15 @@ logging:
     org.hibernate.SQL: debug
     type.descriptor.sql.BasicBinder: TRACE
 ```  
+  
+### 📍Test 용 application.yml
+```yaml
+spring:
+
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
+```
 ~ 로 디렉토리 이동후 test.mv.db 파일 카피  
   - cp 대상파일명 복사파일명  
 
