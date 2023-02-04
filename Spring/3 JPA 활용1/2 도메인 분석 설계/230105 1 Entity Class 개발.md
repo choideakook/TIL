@@ -1,4 +1,5 @@
 # Entity Class 개발
+[🔗 JPA Entity 개념](https://github.com/choideakook/TIL/blob/main/Spring/7%20DB%20접근%20활용/4%20JPA/230203%201%20JPA%20개발.md)
 
 ### ❗️ cascade , fetch , 연관관계 편의 Method 반영이 안되어 있습니다.
 
