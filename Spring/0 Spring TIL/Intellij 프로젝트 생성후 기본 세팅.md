@@ -95,7 +95,7 @@ spring:
 
 logging.level:
   org.hibernate.SQL: debug
-  org.hibernate.type: trace
+  org.hibernate.orm.jdbc.bind: trace
 ```
 ~ 로 디렉토리 이동후 test.mv.db 파일 카피  
   - cp 대상파일명 복사파일명  
