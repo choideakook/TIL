@@ -36,6 +36,7 @@ enable annotation processing 에 체크
 
 build.gradel 의 dependencies 추가
   - 테스트에서 롬복을 사용할 수 있게된다.
+  - dependencies 에 추가하면 됨
 ```
 //테스트에서 lombok 사용
     testCompileOnly 'org.projectlombok:lombok'
