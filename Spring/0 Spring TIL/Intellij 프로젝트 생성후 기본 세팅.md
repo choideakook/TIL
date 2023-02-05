@@ -66,7 +66,7 @@ Started JdbcApplication 메시지가 나오면 성공
 ## ✏️ H2 DB 와 JPA 환경설정
 application.yml 에 환경설정 하기  
 
-[🔗 환경설정의 자세한 내용](https://github.com/choideakook/TIL/blob/main/Spring/3%20JPA%20활용1/1%20프로젝트%20환경설정/230104%201%20프로젝트%20환경설정.md)
+[🔗 환경설정의 자세한 내용](https://github.com/choideakook/TIL/blob/main/Spring/3%20JPA%20활용1/1%20프로젝트%20환경설정/230104%201%20프로젝트%20환경설정.md)  
 [🔗 Spring Boot 공식 사용 설명서](https://spring.io/projects/spring-boot#learn)
 ```yaml
 spring:
