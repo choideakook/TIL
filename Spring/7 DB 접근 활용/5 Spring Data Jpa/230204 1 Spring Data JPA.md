@@ -16,7 +16,7 @@ Spring Data JPA 는 JPA 를 편리하게 사용할 수 있도록 도와주는 �
 - JpaRepository 인터페이스를 통해서 기본적인 CRUD 기능을 제공한다.
     - CRUD 뿐 아니라 공통화 가능한 거의 모든 기능이 포함되어 있다.
 
-![s7511.png](Spring%20Data%20JPA%206f139d6894b24863b2ae932003846e2d/s7511.png)
+<img width="530" alt="s7511" src="https://user-images.githubusercontent.com/115536240/216801625-9a2f97b1-823c-4a64-8dff-032780aa613d.png">
 
 <br>
 
@@ -35,7 +35,7 @@ public interface ItemRepository extends JpaRepository <Member, Long>{
     - 그리고 만든 구현 Class 의 instance 를 만들어 Spring Bean 으로 등록까지 해준다.
     - 개발자는 구현 Class 없이 interface 만으로 공통 기능들을 사용할 수 있게된다.
 
-![s7512.png](Spring%20Data%20JPA%206f139d6894b24863b2ae932003846e2d/s7512.png)
+<img width="530" alt="s7512" src="https://user-images.githubusercontent.com/115536240/216801628-39451773-8fae-4fd0-a5cd-68a0d143e621.png">
 
 <br>
 
