@@ -83,10 +83,11 @@ spring:
       hibernate:
         format_sql: true
 
-logging:
-  level:
-    org.hibernate.SQL: debug
-    type.descriptor.sql.BasicBinder: TRACE
+logging.level:
+  org.hibernate:
+    SQL: debug
+#    type: trace (Spring boot 2.X.X)
+#    orm.jdbc.bind: trace (Spring boot 3.X.X)
 ```  
   
 ### 📍Test 용 application.yml
