@@ -142,13 +142,13 @@ public class JpaItemRepositoryV2 implements ItemRepository {
 
 - Class 의존 관계
 
-<img width="530" alt="s7511" src="https://user-images.githubusercontent.com/115536240/216801579-5e0d2c04-2c3f-4419-bae9-3d93721bd896.png">
+<img width="520" alt="s7521" src="https://user-images.githubusercontent.com/115536240/216801645-f4410d3d-5e1f-4391-98eb-f7964b40d2f6.png">
 
 - 런타임 객체 의존 관계
     - 실질적으로 item Service 는 JpaItemRepositoryV2 가 주입된다.
     - JpaItemRepositoryV2 는 Spring data Jpa 가 만든 Proxy Repository 가 주입된다.
 
-<img width="530" alt="s7512" src="https://user-images.githubusercontent.com/115536240/216801582-f8fcdb13-3121-4e9e-91f4-e0ec8a272ced.png">
+<img width="520" alt="s7522" src="https://user-images.githubusercontent.com/115536240/216801649-7bd2701e-2fbf-414f-95d9-b3c068642950.png">
 
 <br>
 
