@@ -55,7 +55,7 @@ clean {
     - build 의 Rebuild (S + C + F9) 를 실행해도 class 가 생성됨
     - 참고로 generated 는 git ignore 로 repository 에 업로드가 안되게 막아주어야 한다.
 
-![s7611.png](QueryDSl%20987363df46df44a1918ce07bbca645d7/s7611.png)
+<img width="350" alt="s7611" src="https://user-images.githubusercontent.com/115536240/216801838-8a3401b5-8fb8-4343-9e88-d57a7c6cbb1b.png">
 
 ### 📍 Q type 삭제
 
@@ -70,4 +70,4 @@ clean {
 
 더블클릭하면 작동한다.
 
-![s7612.png](QueryDSl%20987363df46df44a1918ce07bbca645d7/s7612.png)
+<img width="350" alt="s7612" src="https://user-images.githubusercontent.com/115536240/216801841-67d1da88-ed64-4202-8d6d-c80ddcc1b200.png">
