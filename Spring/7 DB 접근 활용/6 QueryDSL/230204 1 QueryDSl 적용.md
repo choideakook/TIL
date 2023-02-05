@@ -27,7 +27,7 @@
 
 - java 코드는 부등호 표시가 불가능해서 문자로 대체해서 사용된다.
     - == (eq : Equal)
-    - ≠ (ne : Not Equal)
+    - != (ne : Not Equal)
     - < (lt : Less Than)
     - **>** (gt : Greater Than)
     - ≥ (goe : Greater Than Or Equal)
