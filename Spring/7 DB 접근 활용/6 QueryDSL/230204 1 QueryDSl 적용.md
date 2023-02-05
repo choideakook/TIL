@@ -30,8 +30,8 @@
     - != (ne : Not Equal)
     - < (lt : Less Than)
     - **>** (gt : Greater Than)
-    - >= (goe : Greater Than Or Equal)
-    - <= (loe : Less Than Or Equal)
+    - **>=** (goe : Greater Than Or Equal)
+    - **<=** (loe : Less Than Or Equal)
 
 ```java
 package hello.itemservice.repository.jpa;
