@@ -29,7 +29,7 @@
     - == (eq : Equal)
     - ≠ (ne : Not Equal)
     - < (lt : Less Than)
-    - > (gt : Greater Than)
+    - '>' (gt : Greater Than)
     - ≥ (goe : Greater Than Or Equal)
     - ≤ (loe : Less Than Or Equal)
 
