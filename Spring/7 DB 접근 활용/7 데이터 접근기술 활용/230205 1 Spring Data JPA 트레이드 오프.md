@@ -4,7 +4,7 @@
 
 [🔗 예제 코드](https://github.com/choideakook/TIL/blob/main/Spring/7%20DB%20접근%20활용/5%20Spring%20Data%20Jpa/230204%202Spring%20Data%20JPA%20적용.md)
 
-<img width="520" alt="s7521" src="[https://user-images.githubusercontent.com/115536240/216801645-f4410d3d-5e1f-4391-98eb-f7964b40d2f6.png](https://user-images.githubusercontent.com/115536240/216801645-f4410d3d-5e1f-4391-98eb-f7964b40d2f6.png)">
+<img width="520" alt="s7521" src="https://user-images.githubusercontent.com/115536240/216801645-f4410d3d-5e1f-4391-98eb-f7964b40d2f6.png">
 
 - 지금 상황에서는 OCP 의 원칙을 준수하기 위해 `ItemService` 가 `SpringDataJpaItemRepository` 를 바로 의존하지 않고,
 `ItemRepository` 를 기존 그대로 의존해 `JpaItemReposiroyV2` 라는 어뎁터 역할의 구현체를 거처서 `SpringDataJpaItemRepository` 를 의존하고 있다.
@@ -18,11 +18,11 @@ OCP 와 DI 원칙을 포기하고 `ItemService` 에서 바로 `SpringDataJpaItem
 - 하지만 이 방법을 적용하려면 Service 코드를 수정하고,
 추후에 다른 기술로 교체하게 되더라도 코드를 전부 수정해야하는 문제점이 있다.
 
-![s7711.png](Spring%20Data%20JPA%20%E1%84%90%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%20%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%200ea6cb23231843b3a9bfdbfd75362ef6/s7711.png)
+<img width="530" alt="s7711" src="https://user-images.githubusercontent.com/115536240/216855581-36b0726d-4699-4387-b606-09f2c95b9c7f.png">
 
 - 실질적인 런타임 객체 의존 관계도 훨신 간결해 진다.
 
-![s7712.png](Spring%20Data%20JPA%20%E1%84%90%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%20%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%200ea6cb23231843b3a9bfdbfd75362ef6/s7712.png)
+<img width="534" alt="s7712" src="https://user-images.githubusercontent.com/115536240/216855589-6ce4a147-d0ea-4c9a-ab5b-7f9414cf5ec4.png">
 
 <br>
 
