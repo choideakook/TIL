@@ -169,8 +169,10 @@ public enum DeliveryStatus {
 }
 ```
 
-- Item
+- Item  
 
+[🔗 상속관계 매핑 전략](https://github.com/choideakook/TIL/blob/main/Spring/0%20Spring%20TIL/상속관계%20매핑%20전략.md)  
+  
 ```java
 package jpabook.jpashop.domain.item;
 
