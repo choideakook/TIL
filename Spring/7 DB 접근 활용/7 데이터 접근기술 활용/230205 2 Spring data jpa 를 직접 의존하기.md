@@ -6,8 +6,6 @@
 
 OCP 와 DI 의 원칙을 지키기 위해 불필요했던 불필요한 절차를 없애고Spring data jpa 를 직접 의존하는 방식으로 리팩토링을 해보자
 
-🔗 구조적 트레이트 오프
-
 <br>
 
 - Spring Data Jpa 의 기능은 최대한 살리면서 QueryDsl 도 편리하게 사용할 수 있는 구조
@@ -15,7 +13,8 @@ OCP 와 DI 의 원칙을 지키기 위해 불필요했던 불필요한 절차를
     - 기본적인 CRUD 기능은 Spring Data JPA 로
     - 복잡한 동적 쿼리는 QueryDsl 로
 
-![s7811.png](Spring%20data%20jpa%20%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%B8%20%E1%84%8B%E1%85%B4%E1%84%8C%E1%85%A9%E1%86%AB%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%2081062adfdedd4233a40900623820c5cf/s7811.png)
+<img width="531" alt="s7811" src="https://user-images.githubusercontent.com/115536240/216855633-99a390cf-d588-42f1-bcd3-a1b0a97ce371.png">
+
 
 <br>
 
