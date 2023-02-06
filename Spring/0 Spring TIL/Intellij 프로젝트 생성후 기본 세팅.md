@@ -17,7 +17,7 @@
     - Spring boot devtools
 - Group : 기관 명
 - Artifact : project 명 (build 결과물)
-
+  
 
 ## ✏️ Gradle 변경
 
@@ -123,4 +123,45 @@ jdbc:h2:tcp://localhost/~/DB 이름
 ```
 jdbc:h2:~/DB 이름
 ```
-~ 에 새로운 mv.db 가 생성된걸 확인할 수 있다.
+~ 에 새로운 mv.db 가 생성된걸 확인할 수 있다.  
+  
+## ✏️ QueryDSL 설정
+  
+```java
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+//JPA, 스프링 데이터 JPA 추가
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//Querydsl 추가
+	implementation 'com.querydsl:querydsl-jpa'
+	annotationProcessor "com.querydsl:querydsl-apt:${dependencyManagement.importedProperties['querydsl.version']}:jpa"
+	annotationProcessor "jakarta.annotation:jakarta.annotation-api"
+	annotationProcessor "jakarta.persistence:jakarta.persistence-api"
+//H2 데이터베이스 추가
+	runtimeOnly 'com.h2database:h2'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//테스트에서 lombok 사용
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+//Querydsl 추가, 자동 생성된 Q클래스 gradle clean으로 제거
+clean {
+	delete file('src/main/generated')
+}
+```
+  
+### 📍 Q Type 생성
+[🔗 Q Type](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/6%20QueryDSL)  
+- Entity 를 생성하면 필드를 기반으로 Q Type 이 생성된다.
+  - application 실행해서 생성하기
+  - build 의 Rebuild (S + C + F9) 로 생성하기
+  
+❗️ generated 는 git ignore 로 repository 에 업로드가 안되게 막아주어야 한다.  
+  
