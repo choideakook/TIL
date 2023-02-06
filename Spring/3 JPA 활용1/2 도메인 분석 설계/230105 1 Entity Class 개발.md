@@ -95,14 +95,14 @@ public class Order {
     private Long id;
 
     // Member 의 PK 에서 참조한 FK
-    @ManyToOne   // N:1 의 연관관계
+    @ManyToOne(fetch = LAZY)   // N:1 의 연관관계
     @JoinColumn (name = "member_id")  // 연관관계의 주인이 표시 (조회, 저장, 수정, 삭제의 권한)
     private Member member;
 
-    @OneToMany (mappedBy = "order")
+    @OneToMany (mappedBy = "order", cascade = ALL)
     private List<OrderItem> orderItems = new ArrayList<>();
 
-    @OneToOne
+    @OneToOne(fetch = LAZY, cascade = ALL)
     @JoinColumn (name = "delivery_id")
     private Delivery delivery;
 
@@ -114,6 +114,23 @@ public class Order {
     private OrderStatus status;
     // EnumType.STRING : 이름으로 DB 에 저장 (항상 이것만 사용해야함)
     // EnumType.ORDINAL : 순서로 DB 에 저장 (중간에 순서가 바뀌면 망하기 때문에 사용금지) 기본값
+    
+    //== 연관관계 편의 Method ==//
+    
+    public void setMember(Member member) {
+        this.member = member;
+        member.getOrders().add(this);
+    }
+
+    public void setOrderItem(OrderItem orderItem) {
+        this.orderItems.add(orderItem);
+        orderItem.setOrder(this);
+    }
+
+    public void setDelivery(Delivery delivery) {
+        this.delivery = delivery;
+        delivery.setOrder(this);
+    }
 }
 ```
 
@@ -147,7 +164,7 @@ public class Delivery {
     @Column(name = "delivery_id")
     private Long id;
 
-    @OneToOne (mappedBy = "delivery")
+    @OneToOne (mappedBy = "delivery", fetch = LAZY)
     private Order order;
 
     @Embedded
@@ -168,7 +185,42 @@ public enum DeliveryStatus {
     READY , COMP
 }
 ```
+  
+- OrderItem
+  
+```java
+package jpabook.jpashop.domain;
 
+import jpabook.jpashop.domain.item.Item;
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.*;
+
+@Entity
+@Getter @Setter
+public class OrderItem {
+
+    @Id @GeneratedValue
+    @Column (name = "order_item_id")
+    private Long id;
+
+    @ManyToOne(fetch = LAZY)
+    @JoinColumn (name = "item_id")
+    private Item item;
+
+    @ManyToOne(fetch = LAZY)
+    @JoinColumn (name = "order_id")
+    private Order order;
+
+    // 주문가격
+    private int orderPrice;
+
+    // 주문수량
+    private int count;
+}
+```
+  
 - Item  
 
 [🔗 상속관계 매핑 전략](https://github.com/choideakook/TIL/blob/main/Spring/0%20Spring%20TIL/상속관계%20매핑%20전략.md)  
@@ -205,42 +257,7 @@ public abstract class Item {
     @ManyToMany (mappedBy = "items")  // 예제를 위한 N:N 관계
     private List<Category> categories = new ArrayList<>();
 ```
-
-- OrderItem
-
-```java
-package jpabook.jpashop.domain;
-
-import jpabook.jpashop.domain.item.Item;
-import lombok.Getter;
-import lombok.Setter;
-
-import javax.persistence.*;
-
-@Entity
-@Getter @Setter
-public class OrderItem {
-
-    @Id @GeneratedValue
-    @Column (name = "order_item_id")
-    private Long id;
-
-    @ManyToOne
-    @JoinColumn (name = "item_id")
-    private Item item;
-
-    @ManyToOne
-    @JoinColumn (name = "order_id")
-    private Order order;
-
-    // 주문가격
-    private int orderPrice;
-
-    // 주문수량
-    private int count;
-}
-```
-
+  
 - Book
 
 ```java
@@ -262,7 +279,7 @@ public class Book extends Item {
     private String isbn;
 }
 ```
-
+  
 - Album
 
 ```java
@@ -283,7 +300,7 @@ public class Album  extends Item{
     private String etc;
 }
 ```
-
+  
 - Movie
 
 ```java
@@ -352,12 +369,18 @@ public class Category {
     // 1:N , N:1 로 풀어낼 수 있는 중간 Tabel 이 있어야한다.
 
     // 자기 자신을 맵핑하는 방법 (셀프 양방향 연관관계 설정)
-    @ManyToOne // 부모는 하나지만 자식은 많을 수 있으므로 N:1
+    @ManyToOne(fetch = LAZY) // 부모는 하나지만 자식은 많을 수 있으므로 N:1
     @JoinColumn(name = "parent_id")  // 부모
     private Category parent;
 
     @OneToMany(mappedBy = "parent") // 자식
     private List<Category> child = new ArrayList<>();
+    
+    //== 연관관계 편의 Method ==//
+    public void addChildCategory(Category child) {
+        this.child.add(child);
+        child.setParent(this);
+    }
 }
 ```
 
