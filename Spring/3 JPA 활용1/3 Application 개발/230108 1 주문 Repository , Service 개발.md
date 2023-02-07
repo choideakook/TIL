@@ -111,8 +111,8 @@ OderRepository 에 save 만 해줘도 cascade 옵션에 의해서 delivery 와 o
 <br>
 
 ### 📍 주문 취소 기능
-Transactional 의 하에서 Data 가 변경되었기 때문에,
-별도의 persist 나 update 없이 변경 감지에 의해 자동으로 data 가 update 된다.
+Transactional 의 하에서 Data 가 변경되었기 때문에,  
+별도의 persist 나 update 없이 변경 감지에 의해 자동으로 data 가 update 된다.  
 [🔗 변경 감지](https://github.com/choideakook/TIL/blob/main/Spring/3%20JPA%20활용1/4%20Web%20계층%20개발/230109%207%20변경%20감지와%20병합%20(Dirty%20Checking%20%26%20Merge).md)
 
 ```java
