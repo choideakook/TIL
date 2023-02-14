@@ -26,7 +26,7 @@
 ### 📍 주로 사용되는 응답 메시지 3가지
 
 1. ***단순 Text 응답*** [🔗](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/3%20HTTP%20요청과%20응답/230213%205%20HttpServletResponse%20기본%20사용법.md)
-    - *`writer*.println("Ok");`
+    - *`writer*.println("Ok");`  
 [🔗 HTML , API 방식](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/3%20HTTP%20요청과%20응답/230213%206%20HTTP%20응답%20Data%20-%20HTML.md)
 2. ***HTML 응답***
 3. ***HTTP API***
