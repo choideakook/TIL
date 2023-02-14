@@ -48,7 +48,7 @@
 
 <br>
 
-![s8141.png](HTML,%20HTTP%20API,%20CSR,%20SSR%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8B%E1%85%A5%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2017dbe885ed9c4c4592287b9582de8db2/s8141.png)
+<img width="550" alt="s8141" src="https://user-images.githubusercontent.com/115536240/218605631-7fbc3211-9d0d-412a-bbb6-55b9ebd85609.png">
 
 1. WAS → 앱 클라이언트
     - 백엔드는 요청한 Data 를 DB 에서 찾아서 전달 한다.
@@ -79,7 +79,7 @@
 - 관련기술
     - React, Vue.js (웹 프론트엔드 개발자가 사용함)
 
-![s8142.png](HTML,%20HTTP%20API,%20CSR,%20SSR%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8B%E1%85%A5%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2017dbe885ed9c4c4592287b9582de8db2/s8142.png)
+<img width="550" alt="s8142" src="https://user-images.githubusercontent.com/115536240/218605641-3ca6abfd-86b4-4a65-a0b4-de7a7e9007cc.png">
 
 1. 웹 브라우저가 서버에 HTML 을 요청한다.
 2. 서버는 HTML 에 java script 의 링크를 보내준다.
