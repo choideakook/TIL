@@ -3,7 +3,7 @@
 ## ✏️ 메시지 응답의 3가지 방법
 
 1. 단순 Text 응답
-    - *`writer*.println("Ok");`
+    - `writer*.println("Ok");`
 2. HTML 응답
 3. HTTP API - Message body JSON 응답
 
@@ -50,13 +50,13 @@ public class ResponseHtmlServlet extends HttpServlet {
 
 - message body 에는 HTML 코드가 적혀있지만 web 에서는 text 가 잘 출력되었다.
 
-![s8291.png](HTTP%20%E1%84%8B%E1%85%B3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%B8%20Data%20-%20HTML%20730bd9c3ed2e431d9f1268067f782e87/s8291.png)
+<img width="400" alt="s8291" src="https://user-images.githubusercontent.com/115536240/218615867-bb836d69-54b7-49d2-9115-82b3b0b234d5.png">
 
 <br>
 
 응답 massage header
 
-![s8292.png](HTTP%20%E1%84%8B%E1%85%B3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%B8%20Data%20-%20HTML%20730bd9c3ed2e431d9f1268067f782e87/s8292.png)
+<img width="400" alt="s8292" src="https://user-images.githubusercontent.com/115536240/218615873-5986f7da-6202-4d88-80de-cc8d45f603dc.png">
 
 <br>
 
@@ -109,4 +109,4 @@ public class ResponseJsonServlet extends HttpServlet {
 
 Json 형식으로 잘 응답 되었다.
 
-![s82101.png](HTTP%20%E1%84%8B%E1%85%B3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%B8%20Data%20-%20HTML%20730bd9c3ed2e431d9f1268067f782e87/s82101.png)
+<img width="700" alt="s82101" src="https://user-images.githubusercontent.com/115536240/218615876-71dc20e9-c747-4dc1-9bf9-67f0128b8a0a.png">
