@@ -83,4 +83,4 @@ post men 을 사용해 편하게 test 를 할 수 있다.
 
 [🔗 post man 사용방법](https://github.com/choideakook/TIL/blob/main/Spring/4%20JPA%20활용2/1%20API%20개발%20기본/230111%201%20회원%20등록%20API.md)
 
-![s8261.png](POST%20HTML%20Form%20f768997abc2f4539862afc65fc58917c/s8261.png)
+<img width="600" alt="s8261" src="https://user-images.githubusercontent.com/115536240/218615307-3735ecac-58e4-4562-8095-50a5de156ba5.png">
