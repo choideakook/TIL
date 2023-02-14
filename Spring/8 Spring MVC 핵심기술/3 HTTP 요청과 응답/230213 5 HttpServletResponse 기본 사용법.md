@@ -67,7 +67,7 @@ public class ResponseHeaderServlet extends HttpServlet {
 
 🔍 web URL 에 접속해 개발자 모드로 확인해보면 내가 작성한 요청 message 를 확인할 수 있다.
 
-![s8281.png](HttpServletResponse%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20f07ea3e7b3ab41c0b0e47dd266c5b61c/s8281.png)
+<img width="550" alt="s8281" src="https://user-images.githubusercontent.com/115536240/218615761-74c77278-a3a3-4388-a3cf-117edd38a59d.png">
 
 <br>
 
@@ -84,7 +84,7 @@ public class ResponseHeaderServlet extends HttpServlet {
 
 상태코드가 400 으로 바뀐다.
 
-![s8282.png](HttpServletResponse%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20f07ea3e7b3ab41c0b0e47dd266c5b61c/s8282.png)
+<img width="550" alt="s8282" src="https://user-images.githubusercontent.com/115536240/218615682-28155ab9-3c8c-4a1f-b5af-a81155484bd3.png">
 
 <br>
 
