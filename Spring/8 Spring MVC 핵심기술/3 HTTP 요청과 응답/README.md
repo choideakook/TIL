@@ -31,4 +31,5 @@
 3. ***HTTP API***
     - Message body JSON 응답
 <br>
-[🔗 HTML , API 방식](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/3%20HTTP%20요청과%20응답/230213%206%20HTTP%20응답%20Data%20-%20HTML.md)
+
+[🔗 HTML , API 방식](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/3%20HTTP%20요청과%20응답/230213%206%20HTTP%20응답%20Data%20-%20HTML.md)  
