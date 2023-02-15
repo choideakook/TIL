@@ -7,13 +7,13 @@
 기존 코드를 최대한 유지하면서 Front Controller 를 도입하는 것
 
 - 구조를 맞추어두고 점진적으로 리팩토링 할 예정
-    - V1 에서는 MVC 패턴의 한계를 개선하는 것이 아닌 프로젝트의 구성을 개선하는 것이 중점이다.
+- V1 에서는 MVC 패턴의 한계를 개선하는 것이 아닌 프로젝트의 구성을 개선하는 것이 중점이다.
 
 <br>
 
 ### 📍 V1 의 구조
 
-![s8521.png](Front%20Controller%20V1%204b17b5642c784735b8c4e9752e24a2dc/s8521.png)
+<img width="533" alt="s8521" src="https://user-images.githubusercontent.com/115536240/218895394-067edbec-d2ba-4e72-82b3-139ed129ee43.png">
 
 <br>
 
