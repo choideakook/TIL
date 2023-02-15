@@ -1,5 +1,3 @@
-# README
-
 # MVC 프레임워크 만들기
 
 ## ✏️ Front Controller 패턴의 특징
@@ -10,7 +8,7 @@
 
 <br>
 
-![s8511.png](README%20b5b6a923003e4ae99fe43d3247c1bb63/s8511.png)
+<img width="414" alt="s8511" src="https://user-images.githubusercontent.com/115536240/218895303-59daa954-a1f2-4c28-b408-f3748ae69759.png">
 
 <br>
 
