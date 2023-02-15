@@ -1,5 +1,3 @@
-# README
-
 # 간단한 회원 관리 웹 어플리케이션 제작
 
 ## ✏️ 요구사항
@@ -47,7 +45,7 @@ public class Member {
 - DB 없이 자체 메모리 목업에 저장하는 방식
 - 싱글톤으로 객체를 생성했다.
 
-[🔗 싱글톤](https://github.com/choideakook/TIL/blob/main/Spring/2%20Spring%20핵심원리/9%20빈%20스코프/221231%203%20Singleton%20%26%20Prototype%20함께%20사용시%20문제점.md)
+[🔗 싱글톤 전략](https://github.com/choideakook/TIL/blob/main/Spring/2%20Spring%20핵심원리/9%20빈%20스코프/221231%203%20Singleton%20%26%20Prototype%20함께%20사용시%20문제점.md)
 
 ```java
 package com.example.servlet.domain.member;
