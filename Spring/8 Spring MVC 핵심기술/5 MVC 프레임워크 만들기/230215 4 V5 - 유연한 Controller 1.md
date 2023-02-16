@@ -20,7 +20,7 @@
 - ***핸들러*** : Controller 를 더 넓은 범위인 핸들러로 명명했다.
     - 어댑터가 있기 때문에 꼭 Controller 의 개념 뿐 아니라 어떤 것이든 해당하는 종류의 어댑터만 있다면 다 처리할 수 있기 때문이다.
 
-![s8561.png](V5%20-%20%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AB%20Controller%201%20987e624e054042959dfaeb5a0e7f0e54/s8561.png)
+<img width="531" alt="s8561" src="https://user-images.githubusercontent.com/115536240/219230845-86dcfae6-8328-450f-9dbc-7a8e105703fd.png">
 
 <br>
 
