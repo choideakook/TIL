@@ -15,7 +15,7 @@
 
 - 구조는 V3 와 동일하지만 Controller 에서 `ModelView` 를 반환하지 않고 `ViewName` 을 반환한다.
 
-![s8551.png](V4%20-%20%E1%84%83%E1%85%A1%E1%86%AB%E1%84%89%E1%85%AE%E1%86%AB%E1%84%92%E1%85%A1%E1%84%80%E1%85%A9%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB%20Controller%2099f81758e9bd436ab44aafd225eb6433/s8551.png)
+<img width="536" alt="s8551" src="https://user-images.githubusercontent.com/115536240/219230732-de1b1b66-61d6-4359-b822-67f1950269ca.png">
 
 <br>
 
