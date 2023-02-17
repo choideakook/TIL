@@ -46,7 +46,7 @@
 
 ### 📍 주요 interface
 
-- 핸들러 매핑 : org.springframework.web.servlet.<U>HandlerMapping</U>
+- 핸들러 매핑 : org.springframework.web.servlet. <U>HandlerMapping</U>
     - 직접 만들 땐 단순히 Map 으로 했지만 Spring MVC 는 interface 로 제공한다.
 - 핸들러 어댑터 : org.springframework.web.servlet.<U>HandlerAdapter</U>
 - 뷰 리졸버 : org.springframework.web.servlet.<U>ViewResolver</U>
