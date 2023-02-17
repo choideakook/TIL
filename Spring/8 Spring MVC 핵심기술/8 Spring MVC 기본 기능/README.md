@@ -1,5 +1,3 @@
-# Spring MVC - 기본적인 기능
-
 # Spring MVC Project 시작하기
 
 ### 📍 Project 생성
