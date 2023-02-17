@@ -6,11 +6,12 @@
 
 - Spring MVC 구조
 
-![s8611.png](Spring%20MVC%20-%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%2020f29e93474146e992785a81db7c42ed/s8611.png)
+<img width="534" alt="s8611" src="https://user-images.githubusercontent.com/115536240/219523670-4acb2e73-c905-419c-a08d-3319db96d8c9.png">
 
 - 직접 만든 MVC 프레임워크 구조
 
-![s8612.png](Spring%20MVC%20-%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%2020f29e93474146e992785a81db7c42ed/s8612.png)
+<img width="534" alt="s8612" src="https://user-images.githubusercontent.com/115536240/219523682-81ac3437-9669-4667-bff0-ede7f1169338.png">
+
 
 - FrontController → DispatcherServlet
 - handlerMappingMap → HandlerMapping
