@@ -67,7 +67,9 @@ Started JdbcApplication 메시지가 나오면 성공
 application.yml 에 환경설정 하기  
 
 [🔗 환경설정의 자세한 내용](https://github.com/choideakook/TIL/blob/main/Spring/3%20JPA%20활용1/1%20프로젝트%20환경설정/230104%201%20프로젝트%20환경설정.md)  
-[🔗 Spring Boot 공식 사용 설명서](https://spring.io/projects/spring-boot#learn)
+[🔗 Spring Boot 공식 사용 설명서](https://spring.io/projects/spring-boot#learn)  
+[🔗 Logging level 설정에 관한 설명서](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능/230216%201%20Logging.md)
+
 ```yaml
 spring:
   datasource:
