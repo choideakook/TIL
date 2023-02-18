@@ -10,12 +10,11 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 
 > <br>
 > 
-> 
 > <details>
 > <summary> 0. Spring TIL</summary>
 > <div markdown="1">
 > 
-> - [Spring 의 기능과 개념 관련 공부한 내용을 기록하는 ](https://github.com/choideakook/TIL/tree/main/Spring/0%20Spring%20TIL)
+> - [Spring 관련 기능과 개념 관련 공부한 내용을 기록하는 저장소](https://github.com/choideakook/TIL/tree/main/Spring/0%20Spring%20TIL)
 > 
 > </div>
 > </details>
@@ -49,7 +48,7 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 > </div>
 > </details>
 > <details>
-> <summary> 3. JPA 활용 1편 </summary>
+> <summary> 3. JPA 활용 1편 - SSR </summary>
 > <div markdown="1">
 > 
 > - [README](https://github.com/choideakook/TIL/tree/main/Spring/3%20JPA%20활용1)
@@ -61,7 +60,7 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 > </div>
 > </details>
 > <details>
-> <summary> 4. JPA 활용 2 </summary>
+> <summary> 4. JPA 활용 2편 - API </summary>
 > <div markdown="1">
 > 
 > - [README](https://github.com/choideakook/TIL/tree/main/Spring/4%20JPA%20활용2)
@@ -98,27 +97,86 @@ Spring 의 이론을 정리해 놓은 패키지 입니다.
 > 
 > </div>
 > </details>
+> <details>
+> <summary> 7. DB 접근 활용 </summary>
+> <div markdown="1">
+> 
+> - [README](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용)
+> - [JDBC Template](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/1%20JDBC%20Template)
+> - [DB 접근 기술 Test](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/2%20DB%20접근%20기술%20Test)
+> - [My Baits](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/3%20My%20Baits)
+> - [JPA](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/4%20JPA)
+> - [Spring Data Jpa](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/5%20Spring%20Data%20Jpa)
+> - [QueryDSL](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/6%20QueryDSL)
+> - [데이터 접근기술 활용](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/7%20데이터%20접근기술%20활용)
+> 
+> </div>
+> </details>
+> <details>
+> <summary> 8. Spring MVC 핵심 기술 </summary>
+> <div markdown="1">
+> 
+> - [README](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술)
+> - [웹 어플리케이션의 이해](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/1%20웹%20어플리케이션의%20이해)
+> - [Servlet 준비](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/2%20Servlet%20준비)
+> - [HTTP 요청과 응답](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/3%20HTTP%20요청과%20응답)
+> - [서블릿, JSP, MVC 패턴 적용](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/4%20서블릿%2C%20JSP%2C%20MVC%20패턴%20적용)
+> - [MVC 프레임워크 만들기](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/5%20MVC%20프레임워크%20만들기)
+> - [Spring MVC 구조 이해](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/6%20Spring%20MVC%20구조%20이해)
+> - [Spring MVC 적용](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/7%20Spring%20MVC%20적용)
+> - [Spring MVC 기본 기능](https://github.com/choideakook/TIL/tree/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능)
+> - [Spring MVC Web Page]()
+> 
+> </div>
+> </details>
+> <details>
+> <summary> 9. Spring MVC 활용 기술 </summary>
+> <div markdown="1">
+> 
+> - [README]()
+> - []()
+> 
+> </div>
+> </details>
 > <br>
 > 
 
-## 02 Class & Method
+## 02 KDT 백엔드 스쿨 3기
+
+KDT 백앤드 스퀄 3기에 참여해 공부한 내용을 저장해 놓은 패키지 입니다.
+
+> <br>
+> 
+> <details>
+> <summary> 1주차 </summary>
+> <div markdown="1">
+> 
+> - []()
+> 
+> </div>
+> </details>
+> <br>
+> 
+
+
+## 03 Class & Method
 
 특정 class 와 Method 의 기능을 정리해 놓은 패키지 입니다.
 
 <br>
 
-## 03 SQL
+## 04 SQL
 
 SQL 의 이론을 정리해 놓은 패키지 입니다.
 
 <br>
 
-## 04 Error
+## 05 Error
 
 Spring 사용중 발생한 error 를 정리해 놓은 패키지 입니다.
 
 <br>
 
-## 05 Java
+## 06 Java
 
 순수 java 이론을 정리해 놓은 패키지 입니다.
