@@ -151,7 +151,8 @@ KDT 백앤드 스퀄 3기에 참여해 공부한 내용을 저장해 놓은 패�
 > <summary> 1주차 </summary>
 > <div markdown="1">
 > 
-> - [README](https://github.com/choideakook/TIL/tree/main/like%20lion/1%20주차)
+> - [영상 후기](https://github.com/choideakook/TIL/tree/main/like%20lion/영상%20후기)
+> - [1주차](https://github.com/choideakook/TIL/tree/main/like%20lion/1%20주차)
 > 
 > </div>
 > </details>
