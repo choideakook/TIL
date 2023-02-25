@@ -167,3 +167,12 @@ clean {
   
 ❗️ generated 는 git ignore 로 repository 에 업로드가 안되게 막아주어야 한다.  
   
+<br>
+
+## ✏️ AssertJ import
+
+- dependencies 에 추가해주면 된다.
+
+```
+testImplementation "org.assertj:assertj-core:3.20.2"
+```
