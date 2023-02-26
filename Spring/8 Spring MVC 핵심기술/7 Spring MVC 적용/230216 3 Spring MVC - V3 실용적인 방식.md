@@ -104,8 +104,8 @@ public class SpringMemberControllerV3 {
 
 <br>
 
-### 📍 V3 의 문제 개선 2.
-
+### 📍 V3 의 문제 개선 2.
+[🔗 HTML 코드](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/4%20서블릿%2C%20JSP%2C%20MVC%20패턴%20적용/230214%204%20MVC%20패턴%20-%20적용.md)  
 - 특정 HTTP method 만을 매핑하는 어노테이션으로 가독성과 사용 편의성이 크게 증가했다.
 
 ```java
@@ -119,11 +119,13 @@ public class SpringMemberControllerV3 {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
 
+    //-- 회원 등록 폼 --//
     @GetMapping("/new-form")
     public String newForm() {
         return "new-form";
     }
 
+    //-- 회원 등록 --//
     @PostMapping("/save")
     public String save(
             @RequestParam("username") String username,
@@ -140,6 +142,7 @@ public class SpringMemberControllerV3 {
         return "save-result";
     }
 
+    //-- 모든 회원 조회 --//
     @GetMapping
     public String members(Model model) {
 
