@@ -10,7 +10,7 @@
 - Dependencies
     - Spring web
     - Validation [🔗 Validation 을 추가해야하는 이유](https://github.com/choideakook/TIL/blob/main/Error/Cannot%20resolve%20symbol%20'Valid’.md)
-    - Thymeleaf
+    - Thymeleaf [🔗 Thymeleaf 공식 홈페이지](https://www.thymeleaf.org/index.html)
     - jpa
     - H2 Database
     - Lombok
