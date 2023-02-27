@@ -1,3 +1,25 @@
+# 핵심 요약 
+## ✏️ ***요청 Parameter*** VS ***HTTP message body***
+
+### 📍 ***요청 Parameter 방식***
+
+- `@Controller`
+- 요청 Parameter 를 조회하는 기능
+- return 값으로 Model and View 를 반환한다.
+- 요청 - `@RequestParam` / 응답 - `@ModelAtrribute`
+- SSR 방식으로 코딩할 때 사용
+- <br>
+
+### 📍 ***HTTP Message Body 방식***
+
+- `@RestController`
+- HTTP Message body 를 직접 조회하는 기능
+- return 값으로 단순 JASON 이나 Text 등 을 반환한다.
+- 요청 - `@RequestBody` / 응답 - `@ResponseBody`
+- 단순 Text 로 통신하거나, CSR 방식으로 코딩할 때 사용
+
+<br>
+
 # Spring MVC Project 시작하기
 
 ### 📍 Project 생성
