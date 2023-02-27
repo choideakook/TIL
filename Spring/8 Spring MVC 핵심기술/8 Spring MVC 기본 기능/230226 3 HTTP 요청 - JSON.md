@@ -78,7 +78,7 @@ public class RequestBodyJasonController {
 
 - 단순 Text 를 주고받을 때 사용했던 방식과 동일하다.
 
-🔗 단순 Text 매핑
+[🔗 단순 Text 매핑](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능/230226%202%20HTTP%20요청%20-%20단순%20text.md)
 
 ```java
     @ResponseBody
@@ -102,7 +102,7 @@ public class RequestBodyJasonController {
     - 그럼 `objectMapper` 를 사용하지 않아도 되고 `throws` 도 선언하지 않아도 된다.
 - 단순 Text 에서 했던 것 처럼 `HttpEntity<>` 를 사용하는 것도 가능하다. (강의에서 V4)
     
-    🔗 HttpEntity<> 사용방법
+    [🔗 HttpEntity<> 사용방법](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능/230226%202%20HTTP%20요청%20-%20단순%20text.md)
     
 
 ```java
@@ -122,7 +122,6 @@ public class RequestBodyJasonController {
 
 - 지금 형태의 method 의 매개변수값에 어노테이션이 없으면 `@ModelAttribute` 로 인식하게 되어버린다.
     
-    🔗 @ModelAttribute
     
 - `@RequestBody` 를 생략하려면 Class 레벨에 `@RestController` 를 붙이는 방식으로 생략할 수 있다.
 
