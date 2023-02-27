@@ -135,7 +135,7 @@ public class ResponseViewController {
 
 ### ⚠️ 실수로 @ResponseBody 어노테이션을 붙일경우
 
-🔗 @ResponseBody
+[🔗 @ResponseBody](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능/230226%202%20HTTP%20요청%20-%20단순%20text.md)
 
 - 반환값을 논리이름으로 인식하지 않고 단순 Text 로 인식해버린다.
     - HTML 파일이 응답 되지 않고,
