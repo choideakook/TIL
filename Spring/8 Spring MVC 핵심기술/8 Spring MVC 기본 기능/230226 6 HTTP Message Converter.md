@@ -14,7 +14,7 @@ HTTP message Converter 를 사용하는 것이 좋다.
 
 ### 📍@ResponseBody 의 원리
 
-🔗 @ResponseBody
+[🔗 @ResponseBody](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능/230226%202%20HTTP%20요청%20-%20단순%20text.md)
 
 [🔗 @View Resolver](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/5%20MVC%20프레임워크%20만들기/230215%202%20V3%20-%20Model%20추가.md)
 
@@ -27,7 +27,7 @@ HTTP message Converter 를 사용하는 것이 좋다.
     - 기본 문자일경우 `StringHttpMessageConverter` 로 단순 Text 반환
     - 객체 일경우 `MappingJackson2HttpMessageConverter` 로 JSON 반환
 
-![s882.png](HTTP%20Message%20Converter%209372a1ba186845ecb02e1794b0962921/s882.png)
+<img width="551" alt="s882" src="https://user-images.githubusercontent.com/115536240/221516914-1f8f600b-5c16-4448-8da4-5fe4a1ea16eb.png">
 
 <br>
 
