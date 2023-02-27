@@ -151,4 +151,5 @@ public class RequestBodyJasonController {
 - `@RequestBody` 가JSON 을 객체로 변환했던 것 처럼 
 객체도 `@ResponseBody` 가 JSON 으로 변환되어 출력된다.
 
-![s8881.png](HTTP%20%E1%84%8B%E1%85%AD%E1%84%8E%E1%85%A5%E1%86%BC%20-%20JSON%2037f7b2a2b4a84d21a997505b5f23b7e4/s8881.png)
+<img width="567" alt="s8881" src="https://user-images.githubusercontent.com/115536240/221517168-fa6c77ab-8cc7-4fa5-b3c7-c632f2730526.png">
+
