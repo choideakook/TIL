@@ -4,7 +4,7 @@
 
 - 자세한 내용은 HTTP 요청에서 다룬내용과 동일하다.
     
-    🔗 HTTP 요청 - 단순 Text
+    [🔗 HTTP 요청 - 단순 Text](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능/230226%202%20HTTP%20요청%20-%20단순%20text.md)
     
 
 ```java
@@ -54,7 +54,7 @@ public class ResponseBodyController {
 
 - 자세한 내용은 HTTP 요청에서 다룬내용과 동일하다.
     
-    🔗 HTTP 요청 - JSON
+    [🔗 HTTP 요청 - JSON](https://github.com/choideakook/TIL/blob/main/Spring/8%20Spring%20MVC%20핵심기술/8%20Spring%20MVC%20기본%20기능/230226%203%20HTTP%20요청%20-%20JSON.md)
     
 
 ```java
