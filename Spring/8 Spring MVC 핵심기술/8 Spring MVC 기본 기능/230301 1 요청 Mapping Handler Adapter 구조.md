@@ -13,7 +13,7 @@
 
 ## ✏️ RequestMappingHandlerAdapter 의 동작 방식
 
-![s891.png](%E1%84%8B%E1%85%AD%E1%84%8E%E1%85%A5%E1%86%BC%20Mapping%20Handler%20Adapter%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20463af083c9534efca71fa7a49939773c/s891.png)
+<img width="548" alt="s891" src="https://user-images.githubusercontent.com/115536240/222876936-4dd28750-01e0-4077-98be-a6b0f0678ae8.png">
 
 ### 📍 ArgumentResolver
 
@@ -37,7 +37,7 @@
 
 - ArgumentResolver 와 ReturnValueHandler 에서 작동된다.
 
-![s8922.png](%E1%84%8B%E1%85%AD%E1%84%8E%E1%85%A5%E1%86%BC%20Mapping%20Handler%20Adapter%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20463af083c9534efca71fa7a49939773c/s8922.png)
+<img width="550" alt="s8922" src="https://user-images.githubusercontent.com/115536240/222876940-c5563ece-2733-4f0e-a715-5dbc05d2798c.png">
 
 - ***요청의 경우***
     - 각각의 ArgumentResolver 가 처리할 수 있는 data 인지 확인하기 위해 Message Converter 가 하나하나 getRead() 로 체크하고,
