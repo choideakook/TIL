@@ -125,7 +125,10 @@ jdbc:h2:tcp://localhost/~/DB 이름
 ```
 jdbc:h2:~/DB 이름
 ```
-~ 에 새로운 mv.db 가 생성된걸 확인할 수 있다.  
+~ 에 새로운 mv.db 가 생성된걸 확인할 수 있다. 
+
+## ✏️ Git ignore
+[🔗 git ignore](https://github.com/choideakook/TIL/blob/main/Java/git%20ignore.md)
   
 ## ✏️ QueryDSL 설정
   
@@ -157,7 +160,7 @@ tasks.named('test') {
 clean {
 	delete file('src/main/generated')
 }
-```
+```  
   
 ### 📍 Q Type 생성
 [🔗 Q Type](https://github.com/choideakook/TIL/tree/main/Spring/7%20DB%20접근%20활용/6%20QueryDSL)  
