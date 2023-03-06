@@ -62,4 +62,4 @@
 
 ### 📍 서비스 제공 흐름
 
-![s8911.png](README%20fc43e6d2585e4b3688e2ebe2f5d63f4d/s8911.png)
+<img width="540" alt="s8911" src="https://user-images.githubusercontent.com/115536240/222993816-e51e471e-6c45-47fc-bf8d-f4d838c60558.png">
