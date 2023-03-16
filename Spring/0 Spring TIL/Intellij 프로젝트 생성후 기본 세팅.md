@@ -77,6 +77,9 @@ spring:
     username: sa
     password:
     driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
 
   jpa:
     hibernate:
