@@ -1,0 +1,28 @@
+<div th:fragment="slide(random, memberJoinForm)" class="carousel rounded-box w-96">
+    <th:block th:each="num : ${random}">
+
+      
+        <div class="carousel-item w-1/2">
+            <div class="relative">
+              
+                <img th:src="@{https://avatars.dicebear.com/api/avataaars/__${num}__.svg}"
+                     class="w-full"
+                     data-image="__${num}__"
+                     onclick="selectImage(this)"/>
+
+                <div class="absolute inset-0 bg-gray-900 bg-opacity-50 hover:bg-opacity-75 transition"></div>
+              
+            </div>
+            <input type="hidden" th:field="${memberJoinForm.profileImg}" id="profileImg"/>
+        </div>
+
+      
+    </th:block>
+</div>
+
+<script>
+    function selectImage(img) {
+        var num = img.getAttribute("data-image");
+        document.getElementById("profileImg").value = num;
+    }
+</script>
